@@ -1,0 +1,139 @@
+h1 {
+	background: linear-gradient(90deg, lightblue, darkblue);
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	letter-spacing: 10px;
+}
+
+h2 {
+	margin-right: 50px;
+	background-color: skyblue;
+	width: 135px;
+	height: 35px;
+	padding: 20px;
+	border-radius: 40px;
+	color: white;
+}
+
+h3 {
+	background-color: white;
+	width: 400px;
+	height: 20px;
+	padding: 20px;
+	border-radius: 40px;
+	color: black;
+}
+
+nav {
+	background-color: royalblue;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+ol {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: white;
+	padding: 0px;
+}
+
+li {
+	margin: 30px;
+	color: white;
+	padding: 10px;
+}
+
+a {
+	color: white;
+	text-decoration-line: none;
+}
+
+article {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	border: 2px dotted darkblue;
+	padding: 50px;
+	margin: 50px;
+}
+
+section {
+	background-color: lightblue;
+	width: 450px;
+	height: 850px;
+	padding: 10px;
+	border-radius: 30px;
+	background: linear-gradient(skyblue, royalblue);
+	margin-right: 50px;
+	margin-bottom: 50px;
+	box-shadow: 4px 4px 10px 2px;
+}
+
+footer {
+	background-color: lightblue;
+	height: 50px;
+	color: white;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+p {
+	line-height: 1.9;
+	word-break: keep-all;
+	width: 400px;
+	margin: 10px;
+	color: white;
+}
+
+img {
+	width: 400px;
+	height: 300px;
+	margin: 10px;
+}
+
+.o1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.o2 {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 100px;
+	background-color: lightblue;
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(lightblue, royalblue);
+	border-radius: 50px;
+}
+
+.o3 {
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightblue;
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(lightblue, royalblue);
+	border-radius: 50px;
+}
+
+.c1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
