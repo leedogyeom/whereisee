@@ -161,8 +161,7 @@ img {
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
-		align-items: center;
-		border: 2px dotted darkblue;
+		align-items: flex-start;
 		padding: 20px;
 		margin: 50px;
 	}
