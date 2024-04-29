@@ -139,51 +139,71 @@ img {
 	margin: 50px;
 }
 
+.p1 {
+	text-align: center;
+}
+
 @media screen and (max-width: 900px) {
 	.o1 {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		align-items: center;
+		padding: 0px;
 	}
 	ol {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
+		align-items: center;
 	}
 	section {
 		background-color: lightblue;
 		width: 300px;
-		height: 880px;	
+		height: auto;	
 		background: linear-gradient(skyblue, royalblue);
+		align-items: center;
+		margin: 20px;
+		margin-top: 10px;
+		padding: 0px;
 	}
 	article {
 		display: flex;
 		flex-direction: column;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
-		align-items: flex-start;
+		align-items: center;
 		margin: 0px;
 		padding: 0px;
 		border: none;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	h2 {
+		align-items: center;
+		margin: 0px;
+		margin-bottom: 10px;
 	}
 	h3 {
 		background-color: white;
-		width: 250px;
+		width: 230px;
 		height: 20px;
 		padding: 20px;
+		margin: 10px;
+		margin-top: 20px;
 		border-radius: 40px;
 		color: black;
 	}
 	img {
 		width: 275px;
 		height: 208px;
-		margin: 10px;
+		margin-bottom: 0px;
 	}
 	p {
 		line-height: 1.9;
 		word-break: keep-all;
 		width: 280px;
-		margin: 10px;
+		padding: 5px;
 		color: white;
 	}
 }
